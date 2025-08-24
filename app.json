@@ -1,8 +1,8 @@
 {
-  "name": "E3_HACKER_MD",
+  "name": "FT-SY3D-MD",
   "description": "Javascript WhatsApp bot made by E3_HACKER_MD",
   "logo": "https://files.catbox.moe/p4yxcn.png",
-  "keywords": ["E3_HACKER_MD"],
+  "keywords": ["FT-SY3D-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "E3_HACKER_MD"
+      "value": "FT-SY3D-MD"
     }, 
       
     "PREFIX": {
@@ -78,27 +78,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY E3_HACKER_MD 🖤*"
+      "value": "*SEEN YOUR STATUS BY FT-SY3D-MD 🖤*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "*E3_HACKER_MD*"
+      "value": "*FT-SY3D-MD*"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923495178663"
+      "value": "923073660479"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "𝙀3_𝙃𝘼𝘾𝙆𝙀𝙍_𝙈𝘿"
+      "value": "FT-SY3D-MD"
 
       }, 
 
@@ -131,13 +131,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/p4yxcn.png"
+      "value": "https://files.catbox.moe/617iij.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "**© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙀3_𝙃𝘼𝘾𝙆𝙀𝙍_𝙈𝘿 ❣️*"
+      "value": "*FT-SY3D-MD💀*"
     },
 
       "DELETE_LINKS": {
