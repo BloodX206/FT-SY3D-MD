@@ -13,7 +13,7 @@ cmd({
     try {
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ 👑 Owner : *${config.OWNER_NAME}*
+┃★│ 👑 Owner : *${config.SYED_MD}*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 📋 *ᴄʜᴏᴏsᴇ ᴀ ᴄᴀᴛᴇɢᴏʀʏ ᴛᴏ ᴇxᴘʟᴏʀᴇ:*
@@ -39,8 +39,8 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363318478753709@newsletter',
-                newsletterName: config.OWNER_NAME,
+                newsletterJid: '120363421815468294@newsletter',
+                newsletterName: config.SYEF_MD,
                 serverMessageId: 143
             }
         };
@@ -51,7 +51,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/p4yxcn.png' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/5tv7m5.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -418,7 +418,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/p4yxcn.png' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/5tv7m5.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
