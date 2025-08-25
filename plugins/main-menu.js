@@ -17,7 +17,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         let dec = `╭━━〔 🚀 *${config.BOT_NAME}* 〕━━┈⊷
 ┃◈╭─────────────────·๏
-┃◈┃• 👑 Owner : *${config.OWNER_NAME}*
+┃◈┃• 👑 Owner : *${config.SYED_MD}*
 ┃◈┃• ⚙️ Prefix : *[${config.PREFIX}]*
 ┃◈┃• 🌐 Platform : *Heroku*
 ┃◈┃• 📦 Version : *4.0.0*
@@ -344,14 +344,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yj7zp0.png' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/5tv7m5.jpg' },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363318478753709@newsletter',
+                        newsletterJid: '120363421815468294@newsletter',
                         newsletterName: config.BOT_NAME,
                         serverMessageId: 143
                     }
@@ -362,7 +362,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/waqa827/E3_HACKER-MD/blob/main/assets/menu.mp3' },
+            audio: { url: 'https://github.com/waqa827/SYED-MD/blob/main/assets/menu.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
