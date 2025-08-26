@@ -47,7 +47,7 @@ OWNER_NAME: process.env.OWNER_NAME || "*FT-SY3D-MD Official*",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ FT-SY3D-MD Official ❣️*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/p4yxcn.png",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/5tv7m5.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Apni Okkat May Raho Batmeez Insan 🫣",
 // add alive msg here 
